@@ -70,7 +70,7 @@ module.exports = {
     },
     plugins : [
         new CleanWebpackPlugin(),
-        new BundleAnalyzerPlugin(),
+        // new BundleAnalyzerPlugin(),
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
             title : '主页',
